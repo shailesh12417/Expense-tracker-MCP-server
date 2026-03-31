@@ -1,0 +1,36 @@
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# Database
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+alembic==1.13.3
+
+# Auth
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Validation
+pydantic[email]==2.9.2
+
+# AI / LLM
+langchain-mcp-adapters>=0.1.0
+langchain-groq>=0.2.0
+langchain-core>=0.3.0
+
+# AWS S3
+boto3==1.35.0
+
+# Rate limiting
+slowapi==0.1.9
+
+# Export
+reportlab==4.2.5
+
+# Templates
+jinja2==3.1.4
+
+# Config
+python-dotenv==1.0.1
+python-multipart==0.0.12
