@@ -2,7 +2,7 @@ from fastmcp import FastMCP
 import os
 import aiosqlite
 import json
-
+import tempfile
 # ─────────────────────────────────────────
 #  PATH SETUP
 # ─────────────────────────────────────────
